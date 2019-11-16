@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/LinLayout"
+        android:background="@color/colorPrimary"
+        android:text="Login" />
+
+    <ImageView
+        android:id="@+id/_ImageIcon"
+        android:layout_width="match_parent"
+        android:layout_height="130dp" />
+
+    <ImageView
+        android:id="@+id/ImageIcon"
+        android:layout_width="152dp"
+        android:layout_height="143dp"
+        android:layout_below="@id/_ImageIcon"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-86dp" />
+
+    <LinearLayout
+        android:id="@+id/LinLayout"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_below="@id/ImageIcon"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/Username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/user" />
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+</RelativeLayout>

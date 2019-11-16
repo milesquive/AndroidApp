@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".CreateProduct">
+
+    <Button
+        android:id="@+id/btnRegist"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/txtSalePrice"
+        android:text="Registar"
+        android:background="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/txtBarcode"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/barCode" />
+
+    <EditText
+        android:id="@+id/txtDesc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/txtBarcode"
+        android:hint="@string/prodDesc" />
+
+    <EditText
+        android:id="@+id/txtQuant"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/txtDesc"
+        android:hint="@string/prodQuant"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtLastQ"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/txtQuant"
+        android:hint="@string/prodLastQ"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtPurcPrice"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/txtLastQ"
+        android:hint="@string/prodPurchasePrice"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/txtSalePrice"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/txtPurcPrice"
+        android:hint="@string/prodSalePrice"
+        android:inputType="numberDecimal" />
+</RelativeLayout>

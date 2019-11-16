@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CasaPatrao</string>
+    <string name="user">Utilizador</string>
+    <string name="password">Utilizador</string>
+    <string name="barCode">Código de Barras</string>
+    <string name="prodDesc">Descrição do produto</string>
+    <string name="prodQuant">Quantidade</string>
+    <string name="prodLastQ">Quantidade anterior</string>
+    <string name="prodPurchasePrice">Preço de compra</string>
+    <string name="prodSalePrice">Preço de Venda</string>
+</resources>
